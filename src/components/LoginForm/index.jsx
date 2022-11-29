@@ -14,7 +14,7 @@ function LoginForm(){
                 <h5>Login</h5>
                 <InputText className="input" placeholder="Usuário" />
                 <Password className="password" placeholder="Senha" toggleMask />
-                <Button label="Entrar" icon="pi pi-check" iconPos="right" />
+                <Button className="button-submit" label="Entrar" icon="pi pi-check" iconPos="right" />
             </LoginStyle>  
         </>
     )
