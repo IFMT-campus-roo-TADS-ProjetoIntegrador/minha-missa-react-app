@@ -5,5 +5,9 @@ export const Container = styled.div`
             background-color: #0d89ec;
             color: whitesmoke;
         }
+
+    .logo-minha-missa{
+        width: 120px;
+    }
         
 `;
