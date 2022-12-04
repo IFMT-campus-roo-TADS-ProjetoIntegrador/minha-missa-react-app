@@ -3,17 +3,22 @@ import React from 'react';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 
+import Cover from '../../assets/img/cover.png'
+import { Container } from './style';
+
 
 function Home(){
     return(
-        <styled>
+        <Container>
             <header>
                 <Header />
-            </header>,
+                <img className="cover" src={Cover} />
+            </header>
+            
             <footer>
                 <Footer />
             </footer>
-        </styled>
+        </Container>
         
         
     )
