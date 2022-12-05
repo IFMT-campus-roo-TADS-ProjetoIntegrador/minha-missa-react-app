@@ -2,7 +2,7 @@ import React from 'react';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-
+import Event from '../../components/Event';
 function Events()
 {
     return(
@@ -13,11 +13,8 @@ function Events()
                 <h1>
                     Events
                 </h1>
-                <ol>
-                    <li>Missa de Natal</li>
-                    <li>Missa de Ano Novo</li>
-                    <li>Cenáculo Mariano</li>
-                </ol>
+                
+                <Event />
             </div>
 
             <Footer />
