@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Cover from '../../assets/img/cover.jpg';
 import BomPastor from '../../assets/carousel/paroquia-bom-pastor-rondonopolis-mt.jfif';
 import NSA from '../../assets/carousel/paroquia-nossa-senhora-aparecida-rondonopolis-mt.jpg';
 import Sagrado from '../../assets/carousel/paroquia-sagrado-coracao-de-jesus-rondonopolis-mt.jpg';
@@ -23,7 +22,7 @@ export default function Carousel(){
                             <figcaption>
                                 <h2> Paróquia Bom Pastor </h2>
                                 <p>
-                                    As missas acontecem principalmente aos domingos ás 18h e 30min
+                                    As missas acontecem principalmente aos domingos ás 18h e 30min.
                                 </p>
                             </figcaption>
                         </figure>
@@ -34,7 +33,7 @@ export default function Carousel(){
                             <figcaption>
                                 <h2> Paróquia Nossa Senhora Aparecida </h2>
                                 <p>
-                                    Participe das missas diárias ás 6h
+                                    Participe das missas diárias ás 6h.
                                 </p>
                             </figcaption>
                         </figure>
@@ -45,59 +44,66 @@ export default function Carousel(){
                             <figcaption>
                                 <h2> Paróquia Sagrado Coração de Jesus </h2>
                                 <p>
-                                    
+                                    Participe das missas diárias ás 6h.
                                 </p>
                             </figcaption>
                         </figure>
                     </div>
                     <div className="item">
                         <figure>
-                            <img src={Cover} alt="" />
+                            <img src={SantaCruz} alt="" />
                             <figcaption>
-                                <h2> Praia </h2>
+                                <h2> Paróquia Santa Cruz </h2>
                                 <p>
-                                    Temos muitos pacotes com boas praias
+                                    Participe das missas diárias ás 6h.
                                 </p>
                             </figcaption>
                         </figure>
                     </div>
                     <div className="item">
                         <figure>
-                            <img src={Coliseum} alt="" />
+                            <img src={Terezinha} alt="" />
                             <figcaption>
-                                <h2> Explore a cidade de Roma </h2>
+                                <h2> Paróquia Santa Terezinha </h2>
                                 <p>
-                                    Roma, a capital da Itália, é uma cidade cosmopolita, enorme, com quase 3.000 anos de arte, arquitetura e cultura influentes no mundo todo e à mostra.
+                                    Participe das missas diárias ás 6h.
                                 </p>
                             </figcaption>
                         </figure>
                     </div>
                     <div className="item">
                         <figure>
-                            <img src={Louvre} alt="" />
+                            <img src={JoaoBosco} alt="" />
                             <figcaption>
-                                <h2> Museu do Louvre </h2>
+                                <h2> Paróquia São João Bosco </h2>
                                 <p>
-                                    Conheça o maior museu de arte do mundo e um monumento histórico em Paris.
+                                    Participe das missas diárias ás 6h.
                                 </p>
                             </figcaption>
                         </figure>
                     </div>
                     <div className="item">
                         <figure>
-                            <img src={Island} alt="" />
+                            <img src={JoseEsposo} alt="" />
                             <figcaption>
-                                <h2> Praias paradisíacas em ilhas desertas </h2>
+                                <h2> Paróquia São José Esposo </h2>
                                 <p>
-                                Desfrute dessa experiência de conhecer praias paradisíacas em olhas desertas próximas ao Brasil
+                                    Participe das missas diárias ás 6h.
                                 </p>
                             </figcaption>
                         </figure>
                     </div>
-                    <div className="item"><img src={Lake} alt="" /></div>
-                    <div className="item"><img src={Montain} alt="" /></div>
-                    <div className="item"><img src={Road} alt="" /></div>
-                    <div className="item"><img src={Tokyo} alt="" /></div>
+                    <div className="item">
+                        <figure>
+                            <img src={JoseOperario} alt="" />
+                            <figcaption>
+                                <h2> Paróquia São José Operário </h2>
+                                <p>
+                                    Participe das missas diárias ás 6h.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </div>
                 </div>
             </Container>
     )
