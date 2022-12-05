@@ -4,7 +4,7 @@ export const Container = styled.div`
     
     width: 100%;
 
-    > img{
+    img{
         width: 300px;
         height: 200px;
     }
