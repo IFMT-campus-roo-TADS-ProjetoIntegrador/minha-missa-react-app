@@ -60,12 +60,13 @@ export default function UserRegisterForm(){
                 <div className="col-md-7 col-lg-8 personal-information">
                     <form className="needs-validation" novalidate="">
                         <div className="row g-3 userdata">
+                            
+                            <hr className="my-4" />
+
                             <div className="col-sm-6">
                                 <label for="name" className="form-label">Nome Completo</label>
                                 <input type="text" className="form-control" id="name" placeholder="Nome Completo" required="" />
                             </div>
-
-                            <hr className="my-4" />
 
                             <div className="col-sm-6">
                                 <label for="username" className="form-label">Username</label>
@@ -74,12 +75,12 @@ export default function UserRegisterForm(){
 
                             <div className="col-sm-6">
                                 <label for="password" className="form-label">Senha</label>
-                                <input type="password" className="form-control" id="password" placeholder="" required="" />
+                                <input type="password" className="form-control" id="password" placeholder="Insira sua senha" required="" />
                             </div>
 
                             <div className="col-sm-6">
                                 <label for="repeat-password" className="form-label">Repetir Senha</label>
-                                <input type="repeat-password" className="form-control" id="repeat-password" placeholder="" required="" />
+                                <input type="password" className="form-control" id="repeat-password" placeholder="Repita sua senha" required="" />
                             </div>
 
                         </div>
