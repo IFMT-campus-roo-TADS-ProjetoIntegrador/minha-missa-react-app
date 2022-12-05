@@ -7,7 +7,7 @@ import SantaCruz from '../../assets/carousel/paroquia-santa-cruz-rondonopolis-mt
 import Terezinha from '../../assets/carousel/paroquia-santa-terezinha-do-menino-jesus-rondonopolis-mt.jfif';
 import JoaoBosco from '../../assets/carousel/paroquia-sao-joao-bosco-rondonopolis-mt.jfif';
 import JoseEsposo from '../../assets/carousel/paroquia-sao-jose-esposo-rondonopolis-mt.jfif';
-import JoseOperario from '../../assets/carousel/paroquia-sao-jose-operario-rondonopolis-mt';
+import JoseOperario from '../../assets/carousel/paroquia-sao-jose-operario-rondonopolis-mt.jfif';
 
 
 import { Container } from './style';
