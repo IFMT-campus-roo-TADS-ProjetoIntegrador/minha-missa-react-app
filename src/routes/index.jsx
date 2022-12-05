@@ -5,6 +5,7 @@ import Home from '../pages/Home';
 import Auth from '../pages/Auth';
 import Events from '../pages/Events';
 import UserRegister from '../pages/UserRegister';
+import EventRegister from '../pages/EventRegister';
 
 function Router()
 {
@@ -16,6 +17,7 @@ function Router()
                 <Route path="/login" component={Auth} />
                 <Route path="/events" component={Events} />
                 <Route path="/user-register" component={UserRegister} />
+                <Route path="/event-register" component={EventRegister} />
             </Switch>
         </BrowserRouter>
     )
