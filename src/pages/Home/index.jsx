@@ -7,6 +7,7 @@ import CallToAction from '../../components/CallToAction';
 
 
 import { Container } from './style';
+import { Carousel } from 'bootstrap';
 
 
 function Home(){
@@ -17,11 +18,12 @@ function Home(){
                 <img className="cover" src={Cover} />
             </header>
             <CallToAction />
+
+            <Carousel />
             <footer>
                 <Footer />
             </footer>
         </Container>
-        
         
     )
 }
