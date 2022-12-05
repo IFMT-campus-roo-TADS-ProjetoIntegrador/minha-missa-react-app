@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 
-import Logo from '../../assets/logo/logo.svg';
+import Logo from '../../assets/logo/logo-minha-missa.svg';
 import { Container } from './style';
 
-import api from '../../services/api';
+// import api from '../../services/api';
 import { useHistory } from 'react-router-dom';
 
 export default function UserRegisterForm(){
