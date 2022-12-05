@@ -18,7 +18,7 @@ export default function Carousel(){
                 <div className="owl-carousel owl-theme">
                     <div className="item">
                         <figure>
-                            <img src={JoseOperario} alt="" />
+                            <img src={BomPastor} alt="" />
                             <figcaption>
                                 <h2> Paróquia Bom Pastor </h2>
                                 <p>
