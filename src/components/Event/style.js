@@ -44,4 +44,7 @@ export const Container = styled.div`
         padding-right: 5px;
         color: #0D89EC;
     }
+    .event-item {
+        width: 500px;
+    }
 `;
