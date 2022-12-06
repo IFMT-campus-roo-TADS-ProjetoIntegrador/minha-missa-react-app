@@ -81,38 +81,39 @@ export default function Event(){
                 </div>
             </Container> */}
 
-            <div className="package-cover">
-                <img className="img-cover" src={Cover} alt="" />
-            </div>
-            <div className="description">
-                <h3> Igraja Aleatória </h3>
-                <p>
-                    O Estádio Anfield é um estádio localizado em Liverpool, Inglaterra. 
-                    É a casa do time de futebol Liverpool FC e um dos estádios considerados 
-                    5 Estrelas pela UEFA. 
-                </p>
-                <div className="items-description">
-                    <span className="hotel">
-                        <i className="pi pi-home"></i>
-                        Alguma Igreja
-                    </span>
-                    <br />
-                    <span className="location">
-                        <i className="pi pi-map-marker"></i>
-                        AlgunLugar-Brasil
-                    </span>
-                    <br />
-                    <span className="price">
-                        <i className="pi pi-money-bill"></i>
-                        R$ 500,00
-                    </span>
-                    <br />
-                    <span className="days">
-                        <i className="pi pi-calendar"></i>
-                        2 dias
-                    </span>
+            <div className='event-item'>
+                <div className="package-cover">
+                    <img className="img-cover" src={Cover} alt="" />
+                </div>
+                <div className="description">
+                    <h3> Igreja no RJ </h3>
+                    <p>
+                       Igreja localizada no Rio de Janeiro, com missas disponíveis aos sábados. 
+                    </p>
+                    <div className="items-description">
+                        <span className="hotel">
+                            <i className="pi pi-home"></i>
+                            Alguma Igreja
+                        </span>
+                        <br />
+                        <span className="location">
+                            <i className="pi pi-map-marker"></i>
+                            Algum Lugar-BR
+                        </span>
+                        <br />
+                        <span className="price">
+                            <i className="pi pi-money-bill"></i>
+                            R$ 500,00
+                        </span>
+                        <br />
+                        <span className="days">
+                            <i className="pi pi-calendar"></i>
+                            2 dias
+                        </span>
+                    </div>
                 </div>
             </div>
+            
         </Container>
     )
 };
