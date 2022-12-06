@@ -20,18 +20,18 @@ function Header(){
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li><Link to="/home" class="nav-link px-2 text-dark">Home</Link></li>
-                    <li><Link to="/travels" class="nav-link px-2 text-dark">Viagens</Link></li>
+                    <li><Link to="/events" class="nav-link px-2 text-dark">Eventos</Link></li>
                     <li><a href="#" class="nav-link px-2 text-dark">Minhas Reservas</a></li>
-                    <li><a href="#" class="nav-link px-2 text-dark">About</a></li>
+                    <li><Link class="nav-link px-2 text-dark">Sobre Nós</Link></li>
                 </ul>
 
                 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                {/* <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search" /> */}
+                <input type="search" class="form-control form-control-dark" placeholder="Pesquisar" aria-label="Search" />
                 </form>
 
                 <div class="text-end">
                 <button type="button" class="btn btn-outline-dark me-2" onClick={() => history.push('/login')}>Entrar</button>
-                <button type="button" class="btn btn-warning" onClick={() => history.push('/register')}> Cadastrar </button>
+                <button type="button" class="btn btn-warning" onClick={() => history.push('/user-register')}> Cadastrar</button>
                 </div>
             </div>
             </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { useHistory } from 'react-router-dom';
+import { useHistory, Link } from 'react-router-dom';
 
 import Logo from '../../assets/logo/logo-minha-missa.svg';
 
@@ -12,7 +12,7 @@ function LoginForm(){
         <main class="form-sing-in text-center">
             <form>
                 <img className="logo-minha-missa" src={Logo} alt="Logo Minha Missa React App" />
-                <h5 class="h3 mb-3 fw-normal">Login</h5>
+                <Link to="/"><h5 class="h3 mb-3 fw-normal">Login</h5></Link>
 
                 <div class="form-floating">
                     <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
@@ -27,7 +27,6 @@ function LoginForm(){
                 <button class="w-100 btn btn-lg btn-primary" type="submit" onClick={() => history.push('/home')}>
                     Sign in
                 </button>
-
                 
                 <p class="mt-5 mb-3 text-muted">
                     <i className="icon pi pi-globe" style={{'fontSize': '0.8em'}}></i>
