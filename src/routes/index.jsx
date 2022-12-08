@@ -6,6 +6,7 @@ import Auth from '../pages/Auth';
 import Events from '../pages/Events';
 import UserRegister from '../pages/UserRegister';
 import EventRegister from '../pages/EventRegister';
+import AboutUs from '../pages/AboutUs';
 
 function Router()
 {
@@ -18,6 +19,7 @@ function Router()
                 <Route path="/events" component={Events} />
                 <Route path="/user-register" component={UserRegister} />
                 <Route path="/event-register" component={EventRegister} />
+                <Route path="/about" component={AboutUs} />
             </Switch>
         </BrowserRouter>
     )
