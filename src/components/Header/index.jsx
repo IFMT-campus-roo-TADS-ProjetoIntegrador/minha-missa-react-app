@@ -22,7 +22,7 @@ function Header(){
                     <li><Link to="/home" class="nav-link px-2 text-dark">Home</Link></li>
                     <li><Link to="/events" class="nav-link px-2 text-dark">Eventos</Link></li>
                     <li><a href="#" class="nav-link px-2 text-dark">Paróquias</a></li>
-                    <li><Link href="/about" class="nav-link px-2 text-dark">Sobre Nós</Link></li>
+                    <li><Link to="/about" class="nav-link px-2 text-dark">Sobre Nós</Link></li>
                 </ul>
 
                 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
