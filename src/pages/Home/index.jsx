@@ -8,6 +8,7 @@ import Carousel from '../../components/Carousel';
 
 
 import { Container } from './style';
+import CarouselBootS from '../../components/CarouselBootS';
 
 
 function Home(){
@@ -19,7 +20,7 @@ function Home(){
             </header>
             <CallToAction />
 
-            <Carousel />
+            <CarouselBootS />
             <footer>
                 <Footer />
             </footer>
